@@ -1,0 +1,121 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 0 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 145px;
+}
+
+.site-header {
+    background-color: rgba(0,0,0,0.04);
+    padding-top: 18px;
+    
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    width: 550px;
+    height: 35px;
+
+}
+
+.middle {
+    margin-left: 35px;
+}
+
+/***************************
+SEARCH RESULTS
+***************************/
+.combo {
+    margin-top: 25px;
+}
+.search-results {
+    flex: 1;
+    margin-left: 140px;
+}
+
+
+.site-footer {
+    background-color: rgba(0,0,0,0.04);
+    padding-left: 140px;
+}
+
+
+.search-count {
+    color: dimgray;
+    font-size: 13px;
+    margin-top: 16.5px;
+}
+/***************************
+LINKS
+***************************/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.tabs a{
+    color: dimgray;
+    font-size: 15px;
+    display: inline-block;
+    padding: 7px 13px;
+}
+
+a.active {
+    font-weight: bold;
+    color: dodgerblue;
+    border-bottom: solid 3px;
+}
+
+.site-footer a {
+    color: dimgray;
+    font-size: 13px;
+    display: inline-block;
+    margin: 25px 20px 20px;
+}
+.link-title {
+    font-size: 23px;
+    display: block;
+}
+
+.link-direct {
+    color: seagreen;
+    font-size: 13px;
+}
+
+.link-translate {
+    font-size: 14.5px;
+    margin-left: 8.5px;
+}
+
+.description {
+    width: 500px;
+    margin-top: 4px;
+    color: dimgray;
+    font-size: 13px;
+
+}
+
+.login {
+    background-color: #4285f4;
+    font-weight: bold;
+    font-size: 13.8px;
+    color: #fff;
+    display: inline-block;
+    margin: 20px 20px;
+    padding: 8px 13px;
+
+}
